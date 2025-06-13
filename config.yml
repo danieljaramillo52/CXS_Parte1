@@ -1,0 +1,434 @@
+# Centros de costo asociados.
+
+reemplazos_gastos: 
+ "23300000": "43300000"
+ "23300100": "43300000"
+ "47300000": "43300000"
+ "23400300": "43300000"
+ "23302200": "43302200"
+ "30302200": "43302200"
+ "34302200": "43302200"
+ "41302200": "43302200"
+ "47302200": "43302200"
+ "16470000": "43470000"
+
+
+
+path:
+  Validacion: Insumos/Validacion/
+  Consultas: Insumos/Consultas/
+  Drivers: Insumos/Drivers/
+  Ventas: Insumos/Ventas/
+  Resultados: Resultados/
+
+# Rutas y ubicaciones
+PATH: "path"
+
+#Glosario de constantes utilizadas.
+# Tipos de consultas
+TIPO_NO_DS: "No_DS"
+TIPO_DS: "DS"
+TIPO_CADENAS: "Cadenas"
+
+# Tipos de ventas
+TIPO_VENTA_COMP: "Venta NETA (Comp)"
+TIPO_VENTA_CADENAS: "Venta NETA (Cadenas)"
+
+# Nombres de columnas de ventas
+VENTA_COMP: "Venta_comp"
+VENTA_CADENAS: "Venta_cad"
+#Concatenada group by por ventas netas.
+CONCATENADA_GB_VN: "Concatenada_gb_vn" 
+# Columnas para agregar
+COLS_AGREGAR: "cols_para_agregar"
+
+# Nombres de categorías
+CONSULTAS: "Consultas"
+VENTAS: "Ventas"
+
+# Número de hoja o sheet
+NUM_SHEET: "num_sheet"
+
+# Nombres de consultas específicas
+CONSULTA_DS: "consultas_ds"
+CONSULTA_NO_DS: "consultas_no_ds"
+CONSULTA_CADENAS: "consultas_cadenas"
+
+# Nombres de nuevas columnas
+COLS_NUEVAS: "nuevas_cols"
+
+# Nombres de segmentos y categorías
+SEGMENTO_AGRUP: "Segmento_Agrup"
+CENTRO_COS: "Centro_Costo"
+NOM_CENTRO_COS: "Nombre_Centro_Costo"
+CONCATENADA: "concatenada"
+CANAL: "Canal"
+SUBCANAL: "Subcanal"
+RAMO_CLAVE: "Ramo_clave"
+
+# Nombres de canales y segmentos de transformación
+CANAL_TRANS: "Canal_Trans"
+SUBCANAL_TRANS: "Subcanal_Trans"
+SEGMENTO_TRANS: "Segmento_Trans"
+
+# Formatos y clasificaciones
+FORMATO: "Formato"
+FORMATO_NIF: "Formato N.I.F"
+FIL_SIN_ASIGNAR: "Sin asignar"
+FIL_NUMERAL: "#"
+FIL_DOBLE_NUMERAL: "#/#"
+FIL_NULL: "NaN"
+FILLNA: "fillna"
+DROP: "drop"
+ASTYPE: "astype"
+UNION: "Union"
+NIF: "NIF"
+FORMAT: "FORMAT"
+CLASIFICACION: "Clasificacion"
+
+# Clientes y distribuidores
+CLIENTE_CET: "Cliente CET"
+CLIENTE: "Cliente"
+DISTRIBUIDORES: "Distribuidores"
+TRADICIONAL: "Tradicional"
+AGENTE_COMERCIAL: "Agente comercial"
+
+# Canales de distribución
+CANAL_DIST: "Canal Distribucion / Segmento 1"
+
+# Columnas necesarias para ventas
+COLS_NECESARIAS_VENTAS_M: "cols_necesarias_v_malas"
+COLS_NECESARIAS_VENTAS_SA: "cols_necesarias_v_sin_asignar"
+
+# Columnas para Grandes Cadenas
+COL_GRANDES_CADENAS: "Grandes Cadenas"
+
+# Sector y Subcanal/Segmento 2
+SECTOR: "Sector"
+SUBCANAL_SEGMENTO_2: "Sub Canal / Segmento 2"
+
+# Devoluciones
+DEVS_SA: "Devs. Sin Asignar"
+DEVS_MALAS: "Devoluciones Malas"
+DEVS_MALAS_COL_FINAL: "Devoluciones_malas"
+DEVS_COL_FINAL_MA : "Devoluciones_MA"
+DEVS_COL_FINAL_SA : "Devoluciones_SA"
+# Columnas concatenadas
+CONCATENADA_COMP: "concatenada_COMP"
+CONCATENADA_CAD: "concatenada_CADENAS"
+
+#Cols para calcular antes del CxS
+#Ventas
+OFICINA_VENTAS: "Oficina_ventas"
+OFICINA_VENTAS_AGRUP: "Oficina_ventas_Agrup"
+VENTA_EFECTIVA:  "Ventas_Efectivas" #Viene de consultas
+VENTA_NETAS_CN: "Ventas_Netas_CN"
+VENTA_NETAS_GRUPO: "Ventas_Netas_Grupo"
+VENTA_EFECTIVA_GRUPO: "Ventas_Efectivas_Grupo"
+VENTA_EFECTIVA_FINAL: "Ventas_Efectivas_Final"
+GASTO_PROM_COMER: "Gasto_Prom_Comercializadores" #Viene de consultas
+
+#Descuentos
+DESCUENTOS: "Descuentos" #Viene de consultas 
+DESCUENTOS_NG: "Descuentos_NG" #Viene de consultas 
+DESCUENTOS_CN: "Descuentos_CN"
+DEPURACION_DCTOS: "Depuracion_Dctos"
+DESCUENTOS_GRUPO: "Dctos_Grupo"
+DEVS_PARAMETRO: 840612330
+
+Consultas: 
+    ventas_verificar:
+      file_name: Validacion vtas.xlsx
+      type: file
+      sheet: [GENERAL,FORMATOS]
+      cols: [6,6]
+      campos:
+        - "formato"
+        - "sector"
+        - "oficina_ventas"
+        - "canal_trans"
+        - "subcanal_trans"
+        - "ventas_netas_cn"
+        - "descuentos_cn"
+      renombrar_columnas_GN:
+        "Unnamed: 0" : "canal_trans"
+        "Unnamed: 1" : "subcanal_trans"
+        "Unnamed: 2" : "sector"
+        "Unnamed: 3" : "oficina_ventas"
+        "Venta Neta Mes Actual $" : "ventas_netas_cn"
+        "Descuentos Mes Actual $" : "descuentos_cn"
+      renombrar_columnas_FOR:
+        "Unnamed: 0" : "canal_trans"
+        "Unnamed: 1" : "sector"
+        "Unnamed: 2" : "formato"
+        "Unnamed: 3" : "oficina_ventas"
+        "Venta Neta Mes Actual $" : "ventas_netas_cn"
+        "Descuentos Mes Actual $" : "descuentos_cn"
+
+    gastos_verificar:
+        file_name: Validacion gastos.xlsx
+        type: file
+        sheet: GASTOS_VEF
+        cols: [3]
+        renombrar_columnas_GN:
+          "Nro Ceco" : "centro_costo"
+          "Real 2025" : "total_gastos_cn"
+          "Nombre Ceco" : "nombre_centro_costo"
+          
+    No_DS: 
+      file_name: Consulta CXS Cliente NO_DS.xlsx
+      type: file 
+      sheet: [Consulta resto segm]
+      num_sheet: 1
+      cols: [14]
+      cols_para_agregar: ["Gasto_Prom_Comercializadores", "Formato", "Formato N.I.F"]
+      nuevas_cols: {
+            "Unnamed: 0" : "Mes",
+            "Unnamed: 1" : "Sector",
+            "Unnamed: 2" : "Ramo_clave",
+            "Unnamed: 3" : "Ramo_texto",
+            "Unnamed: 4" : "Canal_Trans",
+            "Unnamed: 5" : "Subcanal_Trans",
+            "Unnamed: 6" : "Segmento_Trans",
+            "Unnamed: 7" : "Oficina_ventas",
+            "Formato N.I.F": "Formato N.I.F",
+            "Formato": "Formato",
+            "Unnamed: 8" : "Centro_Costo",
+            "Unnamed: 9" : "Nombre_Centro_Costo",
+            "Real" : "Ventas_Efectivas",
+            "Real.1" : "Descuentos",
+            "Gasto_Prom_Comercializadores" : "Gasto_Prom_Comercializadores",
+            "Real.2" : "Descuentos_NG",
+            "Real.3" : "Total_Gastos_CN"}
+        
+        
+    DS:
+      file_name: Consultas CXS Cliente DS Mensual.xlsx
+      type: file 
+      sheet: [Otros, Cafe y Chocolates] 
+      num_sheet: 2
+      cols: [17, 17]
+      cols_para_agregar: ["Formato"]
+      nuevas_cols: {
+         "Unnamed: 0": Mes,
+         "Unnamed: 1" : Sector,
+         "Unnamed: 2" : Ramo_clave,
+         "Unnamed: 3" : Ramo_texto,
+         "Unnamed: 4" : Canal_Trans,
+         "Unnamed: 5" : Subcanal_Trans,
+         "Unnamed: 6" : Segmento_Trans,
+         "Unnamed: 8" : Oficina_ventas,
+         "Unnamed: 9" : Formato N.I.F,
+         "Formato": "Formato",
+         "Unnamed: 10" : Centro_Costo,
+         "Unnamed: 11" : Nombre_Centro_Costo,
+         "Real" : Ventas_Efectivas,
+         "Real.1" : "Descuentos",
+         "Real.2" : "Gasto_Prom_Comercializadores",
+         "Real.3" : "Descuentos_NG",
+         "Real.4" : "Total_Gastos_CN"
+         }
+      
+    Cadenas:
+      file_name: Consultas CXS Cliente Cadenas.xlsx
+      type: file 
+      sheet: [Clientes] 
+      num_sheet: 1
+      cols: [16]
+      cols_para_agregar: ["Gasto_Prom_Comercializadores"]
+      nuevas_cols: {
+            "Unnamed: 0" : "Mes",
+            "Unnamed: 1" : "Sector",
+            "Unnamed: 2" : "Ramo_clave",
+            "Unnamed: 3" : "Ramo_texto",
+            "Unnamed: 4" : "Canal_Trans",
+            "Unnamed: 5" : "Subcanal_Trans",
+            "Unnamed: 6" : "Segmento_Trans",
+            "Unnamed: 7" : "Oficina_ventas",
+            "Unnamed: 8" : "Formato N.I.F",
+            "Unnamed: 9" : "Formato",
+            "Unnamed: 10" : "Centro_Costo",
+            "Unnamed: 11" : "Nombre_Centro_Costo",
+            "Real" : "Ventas_Efectivas",
+            "Real.1" : "Descuentos",
+            "Gasto_Prom_Comercializadores" : "Gasto_Prom_Comercializadores",
+            "Real.2" : "Descuentos_NG",
+            "Real.3" : "Total_Gastos_CN"}
+
+Drivers:
+  Driver_DS:
+    file_name: Driver_DS.xlsx
+    type: file 
+    sheet: Hoja1
+    num_sheet: 1
+    cols: 3
+
+  Driver_NO_DS: 
+    file_name: Driver_NO_DS.xlsx
+    type: file 
+    sheet: Hoja1
+    num_sheet: 1
+    cols: 6
+
+  Driver_Cadenas:  
+    file_name: Driver_Cadenas.xlsx
+    type: file 
+    sheet: Hoja1
+    num_sheet: 1
+    cols: 22
+    
+    
+Ventas:
+  Venta NETA (Cadenas):
+    file_name: Automatico Venta NETA (Cadenas).xlsx
+    type: file 
+    sheet: [Malas, Sin Asignar] 
+    num_sheet: 2
+    cols: [15, 15]
+    cols_necesarias_v_malas: ["Detalle", "Mes Nombre", "Sector", "Canal Distribucion / Segmento 1", "Sub Canal / Segmento 2", "Tipologia / Segmento 3", "Id. Cliente","Formato", "Devoluciones Malas"]
+    cols_necesarias_v_sin_asignar: ["Detalle", "Mes Nombre", "Sector", "Canal Distribucion / Segmento 1", "Sub Canal / Segmento 2", "Tipologia / Segmento 3", "Id. Cliente","Formato", "Devs. Sin Asignar"]
+    
+
+  Venta NETA (Comp):
+    file_name: Automatico Venta NETA (General).xlsx
+    type: file 
+    sheet: [Malas, Sin Asignar] 
+    num_sheet: 2
+    cols: [15, 15]
+    cols_necesarias_v_malas: ["Detalle", "Mes Nombre", "Sector", "Canal Distribucion / Segmento 1", "Sub Canal / Segmento 2", "Tipologia / Segmento 3", "Devoluciones Malas"]
+    cols_necesarias_v_sin_asignar: ["Detalle", "Mes Nombre", "Sector", "Canal Distribucion / Segmento 1", "Sub Canal / Segmento 2", "Tipologia / Segmento 3", "Devs. Sin Asignar"]
+        
+COLS_CNAL_SUBCNAL_SEG:
+  [Canal_Trans, Subcanal_Trans, Segmento_Trans]
+
+COLS_CNAL_SUBCNAL_SEG_FNIF:
+  [Canal_Trans, Subcanal_Trans, Segmento_Trans, Formato N.I.F]
+
+COLS_CNAL_SUBCNAL_SEG_F:
+  [Canal_Trans, Subcanal_Trans, Segmento_Trans, Formato]
+
+COLS_CNAL_SUBCNAL_SEG_F_FNIF:
+  [Canal_Trans, Subcanal_Trans, Segmento_Trans, Formato, Formato N.I.F]
+
+COLS_SEC_SUBC_F: [Sector, Subcanal, Formato]
+
+COLS_FOR_GROUPBY_SECOS : ["Mes","Sector", "Canal", "Subcanal", "Canal_Trans", "Subcanal_Trans", "Oficina_ventas", "Formato N.I.F", "Formato" ,"Segmento_Agrup", "Centro_Costo","Nombre_Centro_Costo"]
+
+#DN hace referencia a doble numeral.
+COLS_FOR_GROUPBY_DN : ["Mes","Sector", "Canal", "Subcanal", "Canal_Trans", "Subcanal_Trans", "Oficina_ventas", "Formato N.I.F", "Formato" ,"Segmento_Agrup","Centro_Costo","Nombre_Centro_Costo"]
+
+COLS_NECESARIAS :  ["Mes", "Sector", "Canal", "Subcanal","Canal_Trans","Subcanal_Trans", "Oficina_ventas", "Formato N.I.F", "Formato", "Segmento_Agrup","Centro_Costo","Nombre_Centro_Costo", "Ventas_Efectivas", "Descuentos", "Gasto_Prom_Comercializadores", "Descuentos_NG", "Total_Gastos_CN"]
+
+COLS_NO_NUMERICAS: ["Mes", "Sector", "Canal", "Subcanal","Canal_Trans","Subcanal_Trans", "Oficina_ventas", "Formato N.I.F", "Formato", "Segmento_Agrup","Centro_Costo","Nombre_Centro_Costo"]
+
+COLS_FOR_SUM : ["Ventas_Efectivas", "Descuentos", "Gasto_Prom_Comercializadores", "Descuentos_NG", "Total_Gastos_CN"]
+
+COLS_FOR_SUM_DN : ["Ventas_Efectivas", "Descuentos", "Gasto_Prom_Comercializadores", "Descuentos_NG", "Total_Gastos_CN",'Depuracion_Dctos', 'Dctos_Grupo', 'Ventas_Efectivas_Grupo','Descuentos_CN', 'Ventas_Netas_CN', 'Ventas_Netas_Grupo'] 
+
+COLS_CONCAT_CADENAS : ["Canal_Trans", "Segmento_Trans", Formato N.I.F]
+
+
+COLS_NUMERICAS: ["Devoluciones_malas","Ventas_Efectivas_Grupo","Descuentos_CN","Ventas_Netas_CN","Ventas_Netas_Grupo","Dctos_Grupo","Descuentos", "Descuentos_NG","Depuracion_Dctos","Gasto_Prom_Comercializadores","Ventas_Efectivas",Total_Gastos_CN,"Ventas_Efectivas_Final"]
+
+#ESTE ES SOLO PARA DS, CON ESTE PODEMOS ASGINAR PARA DS A GUSTO
+DICT_REMP_CNAL_SUBC_SEG_DS: {
+  "DS": ["Comercio Especializado", "Masivo", "Carni/Avicola/Pescad"]
+}
+
+DICT_REGIONES: {
+    "R Bogota Norte": "Bogota",
+    "R Cartagena": "Costa",
+    "R Barranquilla": "Costa",
+    "R Bucaramanga": "Santanderes",
+    "R Medellin": "Antioquia",
+    "R Pereira": "Suroccidente",
+    "R Altillano": "Altillano",
+    "R Cali": "Suroccidente",
+    "R Ibague": "Tolima - Huila",
+    "R Neiva": "Tolima - Huila",
+    "R Bogota Autoserv.": "Bogota",
+    "R Bogota": "Bogota",
+    "R General Nacional": "Central",
+    "R Oficina Central": "Central",
+    "R Bogota Sur": "Bogota"
+}
+
+# Lista de reemplazos
+REEMPLAZOS : [
+    {
+        "df": "consultas_cadenas",
+        "columna": "Canal_Trans",
+        "reemplazo": "Comercio Especializa",
+        "nuevo_valor": "Comercio Especializado",
+    },
+    {
+        "df": "consultas_ds",
+        "columna": "Canal_Trans",
+        "reemplazo": "Comercio Especializa",
+        "nuevo_valor": "Comercio Especializado",
+    },
+    {
+        "df": "consultas_no_ds",
+        "columna": "Subcanal_Trans",
+        "reemplazo": "Establecimientos Dep",
+        "nuevo_valor": "Establecimientos Deportivo",
+    },
+    {
+        "df": "consultas_ds",
+        "columna": "Subcanal_Trans",
+        "reemplazo": "Establecimientos Dep",
+        "nuevo_valor": "Establecimientos Deportivo",
+    },
+    {
+        "df": "consultas_no_ds",
+        "columna": "Canal_Trans",
+        "reemplazo": "Comercio Especializa",
+        "nuevo_valor": "Comercio Especializado",
+    },
+    {
+        "df": "consultas_cadenas",
+        "columna": "Subcanal_Trans",
+        "reemplazo": "Comercializador Digi",
+        "nuevo_valor": "Comercializador Digital",
+    },
+    {
+        "df": "consultas_cadenas",
+        "columna": "Segmento_Trans",
+        "reemplazo": "Comercializador Digi",
+        "nuevo_valor": "Comercializador Digital",
+    },
+    # Agrega más reemplazos según sea necesario
+]
+
+columnas_db_dict : {
+    "Mes": "mes",
+    "Sector": "sector",
+    "Canal": "canal",
+    "Subcanal": "subcanal",
+    "Canal_Trans": "canal_trans",
+    "Subcanal_Trans": "subcanal_trans",
+    "Oficina_ventas": "oficina_ventas",
+    "Formato N.I.F": "formato_nif",
+    "Formato": "formato",
+    "Segmento_Agrup": "segmento_agrup",
+    "Centro_Costo": "centro_costo",
+    "Nombre_Centro_Costo": "nombre_centro_costo",
+    "Ventas_Efectivas": "ventas_efectivas",
+    "Descuentos": "descuentos",
+    "Gasto_Prom_Comercializadores": "gasto_prom_comercializadores",
+    "Descuentos_NG": "descuentos_ng",
+    "Total_Gastos_CN": "total_gastos_cn",
+    "Depuracion_Dctos": "depuracion_dctos",
+    "Dctos_Grupo": "dctos_grupo",
+    "Ventas_Efectivas_Grupo": "ventas_efectivas_grupo",
+    "Descuentos_CN": "descuentos_cn",
+    "Ventas_Netas_CN": "ventas_netas_cn",
+    "Ventas_Netas_Grupo": "ventas_netas_grupo",
+    "Cliente": "cliente",
+    "Oficina_ventas_Agrup": "oficina_ventas_agrup",
+    "Devoluciones_malas": "devoluciones_malas",
+    "Ventas_Efectivas_Final": "ventas_efectivas_final",
+    "Tipo": "tipo"
+}
+
+  
