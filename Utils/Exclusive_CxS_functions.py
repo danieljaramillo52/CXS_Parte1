@@ -80,8 +80,8 @@ def generar_agrupaciones(
     """
     # Constantes
     COLUMNA_FORMATO = "formato"
-    CLAVE_COMBINACION_FIJA = "formato/sector"
-    COLUMNAS_COMBINACION_FIJA = ["formato", "sector"]
+    CLAVE_COMBINACION_FIJA = "oficina_ventas/sector"
+    COLUMNAS_COMBINACION_FIJA = ["sector","oficina_ventas"]
     agrup_ind = {}
     agrup_comb = {}
 

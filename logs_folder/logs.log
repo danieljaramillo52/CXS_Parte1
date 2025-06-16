@@ -1,225 +1,227 @@
-2025-06-16 13:04:32.520 | SUCCESS  | General_Functions:Procesar_configuracion:28 - Proceso de obtención de configuración satisfactorio
-2025-06-16 13:04:32.520 | INFO     | General_Functions:Lectura_insumos_excel:72 - Inicio lectura Consulta CXS Cliente NO_DS.xlsx Hoja Consulta resto segm
-2025-06-16 13:05:02.829 | SUCCESS  | General_Functions:Lectura_insumos_excel:80 - Lectura de Consulta CXS Cliente NO_DS.xlsx Hoja: Consulta resto segm realizada con éxito
-2025-06-16 13:05:02.832 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Lectura_insumos_excel: 30.311294317245483 segundos
-2025-06-16 13:05:02.832 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Cargar_insumo: 30.311294317245483 segundos
-2025-06-16 13:05:02.834 | INFO     | General_Functions:Lectura_insumos_excel:72 - Inicio lectura Consultas CXS Cliente Cadenas.xlsx Hoja Clientes
-2025-06-16 13:05:47.150 | SUCCESS  | General_Functions:Lectura_insumos_excel:80 - Lectura de Consultas CXS Cliente Cadenas.xlsx Hoja: Clientes realizada con éxito
-2025-06-16 13:05:47.150 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Lectura_insumos_excel: 44.3158175945282 segundos
-2025-06-16 13:05:47.153 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Cargar_insumo: 44.31967639923096 segundos
-2025-06-16 13:05:47.154 | INFO     | General_Functions:Lectura_insumos_excel:72 - Inicio lectura Consultas CXS Cliente DS Mensual.xlsx Hoja Otros
-2025-06-16 13:07:30.059 | SUCCESS  | General_Functions:Lectura_insumos_excel:80 - Lectura de Consultas CXS Cliente DS Mensual.xlsx Hoja: Otros realizada con éxito
-2025-06-16 13:07:30.065 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Lectura_insumos_excel: 102.91085004806519 segundos
-2025-06-16 13:07:30.068 | INFO     | General_Functions:Lectura_insumos_excel:72 - Inicio lectura Consultas CXS Cliente DS Mensual.xlsx Hoja Cafe y Chocolates
-2025-06-16 13:08:17.690 | SUCCESS  | General_Functions:Lectura_insumos_excel:80 - Lectura de Consultas CXS Cliente DS Mensual.xlsx Hoja: Cafe y Chocolates realizada con éxito
-2025-06-16 13:08:17.698 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Lectura_insumos_excel: 47.632829666137695 segundos
-2025-06-16 13:08:17.700 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Cargar_insumo: 150.54518747329712 segundos
-2025-06-16 13:08:17.789 | INFO     | General_Functions:Eliminar_acentos:251 - Iniciando proceso de eliminación de acentos...
-2025-06-16 13:08:30.287 | SUCCESS  | General_Functions:Eliminar_acentos:259 - Proceso de eliminación de acentos completado con éxito.
-2025-06-16 13:08:30.289 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Eliminar_acentos: 12.500203609466553 segundos
-2025-06-16 13:08:30.339 | INFO     | General_Functions:Eliminar_acentos:251 - Iniciando proceso de eliminación de acentos...
-2025-06-16 13:08:36.129 | SUCCESS  | General_Functions:Eliminar_acentos:259 - Proceso de eliminación de acentos completado con éxito.
-2025-06-16 13:08:36.133 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Eliminar_acentos: 5.79388165473938 segundos
-2025-06-16 13:08:36.215 | INFO     | General_Functions:Eliminar_acentos:251 - Iniciando proceso de eliminación de acentos...
-2025-06-16 13:08:38.392 | SUCCESS  | General_Functions:Eliminar_acentos:259 - Proceso de eliminación de acentos completado con éxito.
-2025-06-16 13:08:38.394 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Eliminar_acentos: 2.179077386856079 segundos
-2025-06-16 13:08:38.434 | INFO     | General_Functions:Eliminar_acentos:251 - Iniciando proceso de eliminación de acentos...
-2025-06-16 13:08:42.896 | SUCCESS  | General_Functions:Eliminar_acentos:259 - Proceso de eliminación de acentos completado con éxito.
-2025-06-16 13:08:42.898 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Eliminar_acentos: 4.463773250579834 segundos
-2025-06-16 13:08:42.914 | INFO     | General_Functions:Lectura_insumos_excel:72 - Inicio lectura Automatico Venta NETA (Cadenas).xlsx Hoja Malas
-2025-06-16 13:08:42.967 | SUCCESS  | General_Functions:Lectura_insumos_excel:80 - Lectura de Automatico Venta NETA (Cadenas).xlsx Hoja: Malas realizada con éxito
-2025-06-16 13:08:42.970 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Lectura_insumos_excel: 0.05530738830566406 segundos
-2025-06-16 13:08:42.974 | INFO     | General_Functions:Lectura_insumos_excel:72 - Inicio lectura Automatico Venta NETA (Cadenas).xlsx Hoja Sin Asignar
-2025-06-16 13:08:43.042 | SUCCESS  | General_Functions:Lectura_insumos_excel:80 - Lectura de Automatico Venta NETA (Cadenas).xlsx Hoja: Sin Asignar realizada con éxito
-2025-06-16 13:08:43.045 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Lectura_insumos_excel: 0.07087540626525879 segundos
-2025-06-16 13:08:43.046 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Cargar_insumo: 0.13181686401367188 segundos
-2025-06-16 13:08:43.049 | INFO     | General_Functions:Lectura_insumos_excel:72 - Inicio lectura Automatico Venta NETA (General).xlsx Hoja Malas
-2025-06-16 13:08:43.110 | SUCCESS  | General_Functions:Lectura_insumos_excel:80 - Lectura de Automatico Venta NETA (General).xlsx Hoja: Malas realizada con éxito
-2025-06-16 13:08:43.112 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Lectura_insumos_excel: 0.06322646141052246 segundos
-2025-06-16 13:08:43.113 | INFO     | General_Functions:Lectura_insumos_excel:72 - Inicio lectura Automatico Venta NETA (General).xlsx Hoja Sin Asignar
-2025-06-16 13:08:43.205 | SUCCESS  | General_Functions:Lectura_insumos_excel:80 - Lectura de Automatico Venta NETA (General).xlsx Hoja: Sin Asignar realizada con éxito
-2025-06-16 13:08:43.213 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Lectura_insumos_excel: 0.09945988655090332 segundos
-2025-06-16 13:08:43.213 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Cargar_insumo: 0.16393446922302246 segundos
-2025-06-16 13:08:43.213 | INFO     | General_Functions:Eliminar_acentos:251 - Iniciando proceso de eliminación de acentos...
-2025-06-16 13:08:43.231 | SUCCESS  | General_Functions:Eliminar_acentos:259 - Proceso de eliminación de acentos completado con éxito.
-2025-06-16 13:08:43.231 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Eliminar_acentos: 0.01806330680847168 segundos
-2025-06-16 13:08:43.234 | INFO     | General_Functions:Eliminar_acentos:251 - Iniciando proceso de eliminación de acentos...
-2025-06-16 13:08:43.243 | SUCCESS  | General_Functions:Eliminar_acentos:259 - Proceso de eliminación de acentos completado con éxito.
-2025-06-16 13:08:43.243 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Eliminar_acentos: 0.00822591781616211 segundos
-2025-06-16 13:08:43.252 | INFO     | General_Functions:Eliminar_acentos:251 - Iniciando proceso de eliminación de acentos...
-2025-06-16 13:08:43.262 | SUCCESS  | General_Functions:Eliminar_acentos:259 - Proceso de eliminación de acentos completado con éxito.
-2025-06-16 13:08:43.266 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Eliminar_acentos: 0.01482248306274414 segundos
-2025-06-16 13:08:43.266 | INFO     | General_Functions:Eliminar_acentos:251 - Iniciando proceso de eliminación de acentos...
-2025-06-16 13:08:43.285 | SUCCESS  | General_Functions:Eliminar_acentos:259 - Proceso de eliminación de acentos completado con éxito.
-2025-06-16 13:08:43.290 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Eliminar_acentos: 0.023430585861206055 segundos
-2025-06-16 13:08:43.290 | INFO     | Trasformation_functions:eliminar_primeras_n_filas:52 - Eliminación de filas de todos los dataframes: 
-2025-06-16 13:08:43.295 | SUCCESS  | Trasformation_functions:eliminar_primeras_n_filas:60 - Eliminación de filas completa.
-2025-06-16 13:08:43.296 | INFO     | Trasformation_functions:Asignar_col_nula:226 - Proceso para agregar las columnas ['Gasto_Prom_Comercializadores', 'Formato', 'Formato N.I.F'] en la consulta consultas_no_ds iniciado:
-2025-06-16 13:08:43.304 | SUCCESS  | Trasformation_functions:Asignar_col_nula:232 - Columnas asignadas con exito
-2025-06-16 13:08:43.307 | INFO     | Trasformation_functions:Asignar_col_nula:226 - Proceso para agregar las columnas ['Formato'] en la consulta consultas_ds iniciado:
-2025-06-16 13:08:43.314 | SUCCESS  | Trasformation_functions:Asignar_col_nula:232 - Columnas asignadas con exito
-2025-06-16 13:08:43.315 | INFO     | Trasformation_functions:Asignar_col_nula:226 - Proceso para agregar las columnas ['Gasto_Prom_Comercializadores'] en la consulta consultas_cadenas iniciado:
-2025-06-16 13:08:43.319 | SUCCESS  | Trasformation_functions:Asignar_col_nula:232 - Columnas asignadas con exito
-2025-06-16 13:08:43.805 | SUCCESS  | Trasformation_functions:Renombrar_columnas_con_diccionario:82 - Proceso de renombrar columnas satisfactorio: 
-2025-06-16 13:08:43.805 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Renombrar_columnas_con_diccionario: 0.2680685520172119 segundos
-2025-06-16 13:08:43.986 | SUCCESS  | Trasformation_functions:Renombrar_columnas_con_diccionario:82 - Proceso de renombrar columnas satisfactorio: 
-2025-06-16 13:08:43.986 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Renombrar_columnas_con_diccionario: 0.12154865264892578 segundos
-2025-06-16 13:08:44.050 | SUCCESS  | Trasformation_functions:Renombrar_columnas_con_diccionario:82 - Proceso de renombrar columnas satisfactorio: 
-2025-06-16 13:08:44.057 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Renombrar_columnas_con_diccionario: 0.0711064338684082 segundos
-2025-06-16 13:08:44.173 | SUCCESS  | Trasformation_functions:Renombrar_columnas_con_diccionario:82 - Proceso de renombrar columnas satisfactorio: 
-2025-06-16 13:08:44.173 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Renombrar_columnas_con_diccionario: 0.10677266120910645 segundos
-2025-06-16 13:08:44.173 | INFO     | Trasformation_functions:concatenate_dataframes_from_dict:24 - Proceso de concatenación de dataframes.
-2025-06-16 13:08:44.322 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de concatenate_dataframes_from_dict: 0.14958691596984863 segundos
-2025-06-16 13:08:45.019 | SUCCESS  | General_Functions:Procesar_configuracion:28 - Proceso de obtención de configuración satisfactorio
-2025-06-16 13:08:45.033 | INFO     | General_Functions:Lectura_insumos_excel:72 - Inicio lectura Driver_NO_DS.xlsx Hoja Hoja1
-2025-06-16 13:08:45.066 | SUCCESS  | General_Functions:Lectura_insumos_excel:80 - Lectura de Driver_NO_DS.xlsx Hoja: Hoja1 realizada con éxito
-2025-06-16 13:08:45.072 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Lectura_insumos_excel: 0.039690256118774414 segundos
-2025-06-16 13:08:45.075 | INFO     | General_Functions:Lectura_insumos_excel:72 - Inicio lectura Driver_DS.xlsx Hoja Hoja1
-2025-06-16 13:08:45.179 | SUCCESS  | General_Functions:Lectura_insumos_excel:80 - Lectura de Driver_DS.xlsx Hoja: Hoja1 realizada con éxito
-2025-06-16 13:08:45.187 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Lectura_insumos_excel: 0.11252427101135254 segundos
-2025-06-16 13:08:45.187 | INFO     | General_Functions:Lectura_insumos_excel:72 - Inicio lectura Driver_Cadenas.xlsx Hoja Hoja1
-2025-06-16 13:08:45.215 | SUCCESS  | General_Functions:Lectura_insumos_excel:80 - Lectura de Driver_Cadenas.xlsx Hoja: Hoja1 realizada con éxito
-2025-06-16 13:08:45.217 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Lectura_insumos_excel: 0.030068159103393555 segundos
-2025-06-16 13:08:45.218 | INFO     | General_Functions:Eliminar_acentos:251 - Iniciando proceso de eliminación de acentos...
-2025-06-16 13:08:45.233 | SUCCESS  | General_Functions:Eliminar_acentos:259 - Proceso de eliminación de acentos completado con éxito.
-2025-06-16 13:08:45.238 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Eliminar_acentos: 0.01997518539428711 segundos
-2025-06-16 13:08:45.239 | INFO     | General_Functions:Eliminar_acentos:251 - Iniciando proceso de eliminación de acentos...
-2025-06-16 13:08:45.247 | SUCCESS  | General_Functions:Eliminar_acentos:259 - Proceso de eliminación de acentos completado con éxito.
-2025-06-16 13:08:45.253 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Eliminar_acentos: 0.01352548599243164 segundos
-2025-06-16 13:08:45.255 | INFO     | General_Functions:Eliminar_acentos:251 - Iniciando proceso de eliminación de acentos...
-2025-06-16 13:08:45.259 | SUCCESS  | General_Functions:Eliminar_acentos:259 - Proceso de eliminación de acentos completado con éxito.
-2025-06-16 13:08:45.259 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Eliminar_acentos: 0.004877805709838867 segundos
-2025-06-16 13:08:46.570 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Reemplazos_multiples_columnas: 1.0205647945404053 segundos
-2025-06-16 13:08:46.587 | INFO     | Trasformation_functions:Reemplazar_columna_en_funcion_de_otra:130 - Inicio de remplazamiento de datos en Segmento_Agrup
-2025-06-16 13:08:46.616 | SUCCESS  | Trasformation_functions:Reemplazar_columna_en_funcion_de_otra:136 - Proceso de remplazamiento en Segmento_Agrup exitoso
-2025-06-16 13:08:46.620 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Reemplazar_columna_en_funcion_de_otra: 0.033777713775634766 segundos
-2025-06-16 13:08:47.628 | INFO     | Trasformation_functions:Reemplazar_columna_en_funcion_de_otra:130 - Inicio de remplazamiento de datos en Segmento_Agrup
-2025-06-16 13:08:47.676 | SUCCESS  | Trasformation_functions:Reemplazar_columna_en_funcion_de_otra:136 - Proceso de remplazamiento en Segmento_Agrup exitoso
-2025-06-16 13:08:47.677 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Reemplazar_columna_en_funcion_de_otra: 0.04942011833190918 segundos
-2025-06-16 13:08:48.033 | INFO     | Trasformation_functions:Reemplazar_columna_en_funcion_de_otra:130 - Inicio de remplazamiento de datos en Segmento_Agrup
-2025-06-16 13:08:48.075 | SUCCESS  | Trasformation_functions:Reemplazar_columna_en_funcion_de_otra:136 - Proceso de remplazamiento en Segmento_Agrup exitoso
-2025-06-16 13:08:48.075 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Reemplazar_columna_en_funcion_de_otra: 0.042258501052856445 segundos
-2025-06-16 13:08:48.321 | INFO     | Trasformation_functions:Reemplazar_columna_en_funcion_de_otra:130 - Inicio de remplazamiento de datos en Formato
-2025-06-16 13:08:48.371 | SUCCESS  | Trasformation_functions:Reemplazar_columna_en_funcion_de_otra:136 - Proceso de remplazamiento en Formato exitoso
-2025-06-16 13:08:48.374 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Reemplazar_columna_en_funcion_de_otra: 0.05240774154663086 segundos
-2025-06-16 13:08:48.750 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Reemplazos_multiples_columnas: 0.2166295051574707 segundos
-2025-06-16 13:08:48.780 | INFO     | Trasformation_functions:Reemplazar_columna_en_funcion_de_otra:130 - Inicio de remplazamiento de datos en Subcanal
-2025-06-16 13:08:48.890 | SUCCESS  | Trasformation_functions:Reemplazar_columna_en_funcion_de_otra:136 - Proceso de remplazamiento en Subcanal exitoso
-2025-06-16 13:08:48.892 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Reemplazar_columna_en_funcion_de_otra: 0.11215734481811523 segundos
-2025-06-16 13:08:49.053 | INFO     | Trasformation_functions:Reemplazar_columna_en_funcion_de_otra:130 - Inicio de remplazamiento de datos en Segmento_Agrup
-2025-06-16 13:08:49.183 | SUCCESS  | Trasformation_functions:Reemplazar_columna_en_funcion_de_otra:136 - Proceso de remplazamiento en Segmento_Agrup exitoso
-2025-06-16 13:08:49.185 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Reemplazar_columna_en_funcion_de_otra: 0.13193106651306152 segundos
-2025-06-16 13:08:49.818 | INFO     | Trasformation_functions:modificaciones_elegidas_dataframe:341 - Inicio de la operacion fillna
-2025-06-16 13:08:50.223 | SUCCESS  | Trasformation_functions:modificaciones_elegidas_dataframe:350 - operacion fillna completada con exito
-2025-06-16 13:08:50.296 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de modificaciones_elegidas_dataframe: 0.9001994132995605 segundos
-2025-06-16 13:08:50.373 | INFO     | Trasformation_functions:modificaciones_elegidas_dataframe:341 - Inicio de la operacion fillna
-2025-06-16 13:08:50.455 | SUCCESS  | Trasformation_functions:modificaciones_elegidas_dataframe:350 - operacion fillna completada con exito
-2025-06-16 13:08:50.471 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de modificaciones_elegidas_dataframe: 0.1720421314239502 segundos
-2025-06-16 13:08:50.619 | INFO     | Trasformation_functions:modificaciones_elegidas_dataframe:341 - Inicio de la operacion fillna
-2025-06-16 13:08:50.738 | SUCCESS  | Trasformation_functions:modificaciones_elegidas_dataframe:350 - operacion fillna completada con exito
-2025-06-16 13:08:50.762 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de modificaciones_elegidas_dataframe: 0.2876148223876953 segundos
-2025-06-16 13:08:51.164 | INFO     | Trasformation_functions:modificaciones_elegidas_dataframe:341 - Inicio de la operacion astype
-2025-06-16 13:08:51.665 | SUCCESS  | Trasformation_functions:modificaciones_elegidas_dataframe:350 - operacion astype completada con exito
-2025-06-16 13:08:51.757 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de modificaciones_elegidas_dataframe: 0.9953598976135254 segundos
-2025-06-16 13:08:51.809 | INFO     | Trasformation_functions:modificaciones_elegidas_dataframe:341 - Inicio de la operacion astype
-2025-06-16 13:08:51.873 | SUCCESS  | Trasformation_functions:modificaciones_elegidas_dataframe:350 - operacion astype completada con exito
-2025-06-16 13:08:51.895 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de modificaciones_elegidas_dataframe: 0.13620519638061523 segundos
-2025-06-16 13:08:52.010 | INFO     | Trasformation_functions:modificaciones_elegidas_dataframe:341 - Inicio de la operacion astype
-2025-06-16 13:08:52.138 | SUCCESS  | Trasformation_functions:modificaciones_elegidas_dataframe:350 - operacion astype completada con exito
-2025-06-16 13:08:52.166 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de modificaciones_elegidas_dataframe: 0.2712271213531494 segundos
-2025-06-16 13:08:58.528 | INFO     | Trasformation_functions:Reemplazar_columna_en_funcion_de_otra:130 - Inicio de remplazamiento de datos en Cliente
-2025-06-16 13:08:58.544 | SUCCESS  | Trasformation_functions:Reemplazar_columna_en_funcion_de_otra:136 - Proceso de remplazamiento en Cliente exitoso
-2025-06-16 13:08:58.544 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Reemplazar_columna_en_funcion_de_otra: 0.016339778900146484 segundos
-2025-06-16 13:08:58.549 | INFO     | Trasformation_functions:Reemplazar_columna_en_funcion_de_otra:130 - Inicio de remplazamiento de datos en Cliente
-2025-06-16 13:08:58.628 | SUCCESS  | Trasformation_functions:Reemplazar_columna_en_funcion_de_otra:136 - Proceso de remplazamiento en Cliente exitoso
-2025-06-16 13:08:58.630 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Reemplazar_columna_en_funcion_de_otra: 0.08129191398620605 segundos
-2025-06-16 13:08:58.632 | INFO     | Trasformation_functions:Reemplazar_columna_en_funcion_de_otra:130 - Inicio de remplazamiento de datos en Oficina_ventas_Agrup
-2025-06-16 13:08:58.635 | SUCCESS  | Trasformation_functions:Reemplazar_columna_en_funcion_de_otra:136 - Proceso de remplazamiento en Oficina_ventas_Agrup exitoso
-2025-06-16 13:08:58.639 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Reemplazar_columna_en_funcion_de_otra: 0.006836891174316406 segundos
-2025-06-16 13:08:58.641 | INFO     | Trasformation_functions:Reemplazar_columna_en_funcion_de_otra:130 - Inicio de remplazamiento de datos en Oficina_ventas_Agrup
-2025-06-16 13:08:58.712 | SUCCESS  | Trasformation_functions:Reemplazar_columna_en_funcion_de_otra:136 - Proceso de remplazamiento en Oficina_ventas_Agrup exitoso
-2025-06-16 13:08:58.712 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Reemplazar_columna_en_funcion_de_otra: 0.07189321517944336 segundos
-2025-06-16 13:08:58.721 | INFO     | Exclusive_CxS_functions:Filtrar_DataFrames_ventas:48 - Inicio filtracion de la consulta de ventas.
-2025-06-16 13:08:58.721 | SUCCESS  | Exclusive_CxS_functions:Filtrar_DataFrames_ventas:50 - Proceso terminado para la consulta de ventas: 
-2025-06-16 13:08:58.730 | INFO     | Exclusive_CxS_functions:Filtrar_DataFrames_ventas:48 - Inicio filtracion de la consulta de ventas.
-2025-06-16 13:08:58.733 | SUCCESS  | Exclusive_CxS_functions:Filtrar_DataFrames_ventas:50 - Proceso terminado para la consulta de ventas: 
-2025-06-16 13:08:58.741 | INFO     | Trasformation_functions:concatenar_columnas:377 - Se realizó la concatenación en el DataFrame correctamente.
-2025-06-16 13:08:58.741 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de concatenar_columnas: 0.0013194084167480469 segundos
-2025-06-16 13:08:58.747 | INFO     | Trasformation_functions:concatenar_columnas:377 - Se realizó la concatenación en el DataFrame correctamente.
-2025-06-16 13:08:58.750 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de concatenar_columnas: 0.004853487014770508 segundos
-2025-06-16 13:08:58.751 | INFO     | Trasformation_functions:concatenar_columnas:377 - Se realizó la concatenación en el DataFrame correctamente.
-2025-06-16 13:08:58.757 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de concatenar_columnas: 0.0058345794677734375 segundos
-2025-06-16 13:08:58.760 | INFO     | Trasformation_functions:concatenar_columnas:377 - Se realizó la concatenación en el DataFrame correctamente.
-2025-06-16 13:08:58.760 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de concatenar_columnas: 0.002444744110107422 segundos
-2025-06-16 13:08:58.765 | INFO     | General_Functions:Group_by_and_sum:226 - Agrupación y suma realizadas con éxito en las columnas concatenada y Devoluciones Malas.
-2025-06-16 13:08:58.772 | INFO     | General_Functions:Group_by_and_sum:226 - Agrupación y suma realizadas con éxito en las columnas concatenada y Devs. Sin Asignar.
-2025-06-16 13:08:58.856 | SUCCESS  | General_Functions:Procesar_configuracion:28 - Proceso de obtención de configuración satisfactorio
-2025-06-16 13:08:58.861 | INFO     | Trasformation_functions:concatenar_columnas:377 - Se realizó la concatenación en el DataFrame correctamente.
-2025-06-16 13:08:58.861 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de concatenar_columnas: 0.001007080078125 segundos
-2025-06-16 13:08:58.870 | INFO     | Trasformation_functions:concatenar_columnas:377 - Se realizó la concatenación en el DataFrame correctamente.
-2025-06-16 13:08:58.874 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de concatenar_columnas: 0.012797832489013672 segundos
-2025-06-16 13:08:58.886 | INFO     | Trasformation_functions:Reemplazar_columna_en_funcion_de_otra:130 - Inicio de remplazamiento de datos en Devs. Sin Asignar
-2025-06-16 13:08:58.896 | SUCCESS  | Trasformation_functions:Reemplazar_columna_en_funcion_de_otra:136 - Proceso de remplazamiento en Devs. Sin Asignar exitoso
-2025-06-16 13:08:58.899 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Reemplazar_columna_en_funcion_de_otra: 0.013336181640625 segundos
-2025-06-16 13:08:58.901 | INFO     | Trasformation_functions:Reemplazar_columna_en_funcion_de_otra:130 - Inicio de remplazamiento de datos en Devoluciones Malas
-2025-06-16 13:08:58.905 | SUCCESS  | Trasformation_functions:Reemplazar_columna_en_funcion_de_otra:136 - Proceso de remplazamiento en Devoluciones Malas exitoso
-2025-06-16 13:08:58.909 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Reemplazar_columna_en_funcion_de_otra: 0.008446216583251953 segundos
-2025-06-16 13:08:58.913 | INFO     | Trasformation_functions:Reemplazar_columna_en_funcion_de_otra:130 - Inicio de remplazamiento de datos en Devs. Sin Asignar
-2025-06-16 13:08:58.916 | SUCCESS  | Trasformation_functions:Reemplazar_columna_en_funcion_de_otra:136 - Proceso de remplazamiento en Devs. Sin Asignar exitoso
-2025-06-16 13:08:58.922 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Reemplazar_columna_en_funcion_de_otra: 0.008756160736083984 segundos
-2025-06-16 13:08:58.924 | INFO     | Trasformation_functions:Reemplazar_columna_en_funcion_de_otra:130 - Inicio de remplazamiento de datos en Devoluciones Malas
-2025-06-16 13:08:58.933 | SUCCESS  | Trasformation_functions:Reemplazar_columna_en_funcion_de_otra:136 - Proceso de remplazamiento en Devoluciones Malas exitoso
-2025-06-16 13:08:58.935 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Reemplazar_columna_en_funcion_de_otra: 0.010438919067382812 segundos
-2025-06-16 13:08:58.953 | INFO     | General_Functions:Group_by_and_sum:226 - Agrupación y suma realizadas con éxito en las columnas Concatenada_gb_vn y Ventas_Netas_Grupo.
-2025-06-16 13:09:56.361 | INFO     | General_Functions:Lectura_insumos_excel:72 - Inicio lectura Validacion vtas.xlsx Hoja GENERAL
-2025-06-16 13:09:56.503 | SUCCESS  | General_Functions:Lectura_insumos_excel:80 - Lectura de Validacion vtas.xlsx Hoja: GENERAL realizada con éxito
-2025-06-16 13:09:56.506 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Lectura_insumos_excel: 0.14498686790466309 segundos
-2025-06-16 13:09:56.507 | INFO     | General_Functions:Eliminar_acentos:251 - Iniciando proceso de eliminación de acentos...
-2025-06-16 13:09:56.520 | SUCCESS  | General_Functions:Eliminar_acentos:259 - Proceso de eliminación de acentos completado con éxito.
-2025-06-16 13:09:56.526 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Eliminar_acentos: 0.017908573150634766 segundos
-2025-06-16 13:09:56.527 | INFO     | General_Functions:Lectura_insumos_excel:72 - Inicio lectura Validacion vtas.xlsx Hoja FORMATOS
-2025-06-16 13:09:56.601 | SUCCESS  | General_Functions:Lectura_insumos_excel:80 - Lectura de Validacion vtas.xlsx Hoja: FORMATOS realizada con éxito
-2025-06-16 13:09:56.603 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Lectura_insumos_excel: 0.07536530494689941 segundos
-2025-06-16 13:09:56.604 | INFO     | General_Functions:Lectura_insumos_excel:72 - Inicio lectura Validacion gastos.xlsx Hoja GASTOS_VEF
-2025-06-16 13:09:56.640 | SUCCESS  | General_Functions:Lectura_insumos_excel:80 - Lectura de Validacion gastos.xlsx Hoja: GASTOS_VEF realizada con éxito
-2025-06-16 13:09:56.643 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Lectura_insumos_excel: 0.039194583892822266 segundos
-2025-06-16 13:09:56.646 | SUCCESS  | Trasformation_functions:Renombrar_columnas_con_diccionario:82 - Proceso de renombrar columnas satisfactorio: 
-2025-06-16 13:09:56.650 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Renombrar_columnas_con_diccionario: 0.005507469177246094 segundos
-2025-06-16 13:09:56.651 | SUCCESS  | Trasformation_functions:Renombrar_columnas_con_diccionario:82 - Proceso de renombrar columnas satisfactorio: 
-2025-06-16 13:09:56.654 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Renombrar_columnas_con_diccionario: 0.002674102783203125 segundos
-2025-06-16 13:09:56.657 | INFO     | Trasformation_functions:eliminar_fila_por_indice:103 - Fila con índice 0 eliminada correctamente.
-2025-06-16 13:09:56.662 | INFO     | Trasformation_functions:eliminar_fila_por_indice:103 - Fila con índice 0 eliminada correctamente.
-2025-06-16 13:09:56.716 | INFO     | Trasformation_functions:Group_by_and_sum_cols_pd:171 - Agrupación y suma realizadas con éxito en las columnas.
-2025-06-16 13:09:56.768 | INFO     | Trasformation_functions:Group_by_and_sum_cols_pd:171 - Agrupación y suma realizadas con éxito en las columnas.
-2025-06-16 13:09:56.812 | INFO     | Trasformation_functions:Group_by_and_sum_cols_pd:171 - Agrupación y suma realizadas con éxito en las columnas.
-2025-06-16 13:09:56.856 | INFO     | Trasformation_functions:Group_by_and_sum_cols_pd:171 - Agrupación y suma realizadas con éxito en las columnas.
-2025-06-16 13:09:56.907 | INFO     | Trasformation_functions:Group_by_and_sum_cols_pd:171 - Agrupación y suma realizadas con éxito en las columnas.
-2025-06-16 13:09:56.925 | INFO     | Trasformation_functions:Group_by_and_sum_cols_pd:171 - Agrupación y suma realizadas con éxito en las columnas.
-2025-06-16 13:09:56.928 | INFO     | Trasformation_functions:Group_by_and_sum_cols_pd:171 - Agrupación y suma realizadas con éxito en las columnas.
-2025-06-16 13:09:56.935 | INFO     | Trasformation_functions:Group_by_and_sum_cols_pd:171 - Agrupación y suma realizadas con éxito en las columnas.
-2025-06-16 13:09:56.939 | INFO     | Trasformation_functions:Group_by_and_sum_cols_pd:171 - Agrupación y suma realizadas con éxito en las columnas.
-2025-06-16 13:09:56.940 | INFO     | Trasformation_functions:Group_by_and_sum_cols_pd:171 - Agrupación y suma realizadas con éxito en las columnas.
-2025-06-16 13:09:56.969 | SUCCESS  | Trasformation_functions:Renombrar_columnas_con_diccionario:82 - Proceso de renombrar columnas satisfactorio: 
-2025-06-16 13:09:56.972 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Renombrar_columnas_con_diccionario: 0.0031981468200683594 segundos
-2025-06-16 13:09:56.978 | SUCCESS  | Trasformation_functions:Renombrar_columnas_con_diccionario:82 - Proceso de renombrar columnas satisfactorio: 
-2025-06-16 13:09:56.982 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Renombrar_columnas_con_diccionario: 0.0031499862670898438 segundos
-2025-06-16 13:09:56.991 | SUCCESS  | Trasformation_functions:Renombrar_columnas_con_diccionario:82 - Proceso de renombrar columnas satisfactorio: 
-2025-06-16 13:09:56.994 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Renombrar_columnas_con_diccionario: 0.0038003921508789062 segundos
-2025-06-16 13:09:57.001 | SUCCESS  | Trasformation_functions:Renombrar_columnas_con_diccionario:82 - Proceso de renombrar columnas satisfactorio: 
-2025-06-16 13:09:57.001 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Renombrar_columnas_con_diccionario: 0.0 segundos
-2025-06-16 13:09:57.007 | SUCCESS  | Trasformation_functions:Renombrar_columnas_con_diccionario:82 - Proceso de renombrar columnas satisfactorio: 
-2025-06-16 13:09:57.015 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Renombrar_columnas_con_diccionario: 0.0076999664306640625 segundos
-2025-06-16 13:09:57.026 | SUCCESS  | Trasformation_functions:Renombrar_columnas_con_diccionario:82 - Proceso de renombrar columnas satisfactorio: 
-2025-06-16 13:09:57.027 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Renombrar_columnas_con_diccionario: 0.0028192996978759766 segundos
-2025-06-16 13:09:57.040 | SUCCESS  | Trasformation_functions:Renombrar_columnas_con_diccionario:82 - Proceso de renombrar columnas satisfactorio: 
-2025-06-16 13:09:57.042 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Renombrar_columnas_con_diccionario: 0.001737356185913086 segundos
-2025-06-16 13:09:57.052 | SUCCESS  | Trasformation_functions:Renombrar_columnas_con_diccionario:82 - Proceso de renombrar columnas satisfactorio: 
-2025-06-16 13:09:57.057 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Renombrar_columnas_con_diccionario: 0.004586935043334961 segundos
-2025-06-16 13:09:57.060 | SUCCESS  | Trasformation_functions:Renombrar_columnas_con_diccionario:82 - Proceso de renombrar columnas satisfactorio: 
-2025-06-16 13:09:57.062 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Renombrar_columnas_con_diccionario: 0.003873109817504883 segundos
-2025-06-16 13:09:57.361 | INFO     | Trasformation_functions:eliminar_primeros_n_caracteres:637 - Se eliminaron los primeros 5 caracteres de la columna 'centro_costo'.
-2025-06-16 13:09:57.561 | SUCCESS  | Trasformation_functions:Reemplazar_valores_con_dict_pd:306 - Valores de la columna 'centro_costo' reemplazados según el diccionario de mapeo.
-2025-06-16 13:09:57.572 | INFO     | Trasformation_functions:Group_by_and_sum_cols_pd:171 - Agrupación y suma realizadas con éxito en las columnas.
-2025-06-16 13:09:57.619 | INFO     | Trasformation_functions:Group_by_and_sum_cols_pd:171 - Agrupación y suma realizadas con éxito en las columnas.
-2025-06-16 13:09:57.619 | SUCCESS  | Trasformation_functions:pd_left_merge:492 - Proceso de merge satisfactorio
-2025-06-16 13:12:24.877 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Proceso_CxS: 472.5712203979492 segundos
+2025-06-16 13:46:45.299 | SUCCESS  | General_Functions:Procesar_configuracion:28 - Proceso de obtención de configuración satisfactorio
+2025-06-16 13:46:45.304 | INFO     | General_Functions:Lectura_insumos_excel:72 - Inicio lectura Consulta CXS Cliente NO_DS.xlsx Hoja Consulta resto segm
+2025-06-16 13:47:20.532 | SUCCESS  | General_Functions:Lectura_insumos_excel:80 - Lectura de Consulta CXS Cliente NO_DS.xlsx Hoja: Consulta resto segm realizada con éxito
+2025-06-16 13:47:20.538 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Lectura_insumos_excel: 35.234031677246094 segundos
+2025-06-16 13:47:20.538 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Cargar_insumo: 35.234031677246094 segundos
+2025-06-16 13:47:20.545 | INFO     | General_Functions:Lectura_insumos_excel:72 - Inicio lectura Consultas CXS Cliente Cadenas.xlsx Hoja Clientes
+2025-06-16 13:48:18.144 | SUCCESS  | General_Functions:Lectura_insumos_excel:80 - Lectura de Consultas CXS Cliente Cadenas.xlsx Hoja: Clientes realizada con éxito
+2025-06-16 13:48:18.148 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Lectura_insumos_excel: 57.602426528930664 segundos
+2025-06-16 13:48:18.153 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Cargar_insumo: 57.60738229751587 segundos
+2025-06-16 13:48:18.154 | INFO     | General_Functions:Lectura_insumos_excel:72 - Inicio lectura Consultas CXS Cliente DS Mensual.xlsx Hoja Otros
+2025-06-16 13:50:14.837 | SUCCESS  | General_Functions:Lectura_insumos_excel:80 - Lectura de Consultas CXS Cliente DS Mensual.xlsx Hoja: Otros realizada con éxito
+2025-06-16 13:50:14.837 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Lectura_insumos_excel: 116.68348002433777 segundos
+2025-06-16 13:50:14.840 | INFO     | General_Functions:Lectura_insumos_excel:72 - Inicio lectura Consultas CXS Cliente DS Mensual.xlsx Hoja Cafe y Chocolates
+2025-06-16 13:51:07.394 | SUCCESS  | General_Functions:Lectura_insumos_excel:80 - Lectura de Consultas CXS Cliente DS Mensual.xlsx Hoja: Cafe y Chocolates realizada con éxito
+2025-06-16 13:51:07.394 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Lectura_insumos_excel: 52.554239988327026 segundos
+2025-06-16 13:51:07.394 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Cargar_insumo: 169.24039888381958 segundos
+2025-06-16 13:51:07.484 | INFO     | General_Functions:Eliminar_acentos:251 - Iniciando proceso de eliminación de acentos...
+2025-06-16 13:51:21.557 | SUCCESS  | General_Functions:Eliminar_acentos:259 - Proceso de eliminación de acentos completado con éxito.
+2025-06-16 13:51:21.558 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Eliminar_acentos: 14.073975801467896 segundos
+2025-06-16 13:51:21.596 | INFO     | General_Functions:Eliminar_acentos:251 - Iniciando proceso de eliminación de acentos...
+2025-06-16 13:51:28.187 | SUCCESS  | General_Functions:Eliminar_acentos:259 - Proceso de eliminación de acentos completado con éxito.
+2025-06-16 13:51:28.187 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Eliminar_acentos: 6.591315031051636 segundos
+2025-06-16 13:51:28.266 | INFO     | General_Functions:Eliminar_acentos:251 - Iniciando proceso de eliminación de acentos...
+2025-06-16 13:51:30.478 | SUCCESS  | General_Functions:Eliminar_acentos:259 - Proceso de eliminación de acentos completado con éxito.
+2025-06-16 13:51:30.478 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Eliminar_acentos: 2.212427854537964 segundos
+2025-06-16 13:51:30.528 | INFO     | General_Functions:Eliminar_acentos:251 - Iniciando proceso de eliminación de acentos...
+2025-06-16 13:51:35.769 | SUCCESS  | General_Functions:Eliminar_acentos:259 - Proceso de eliminación de acentos completado con éxito.
+2025-06-16 13:51:35.769 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Eliminar_acentos: 5.241691589355469 segundos
+2025-06-16 13:51:35.794 | INFO     | General_Functions:Lectura_insumos_excel:72 - Inicio lectura Automatico Venta NETA (Cadenas).xlsx Hoja Malas
+2025-06-16 13:51:35.850 | SUCCESS  | General_Functions:Lectura_insumos_excel:80 - Lectura de Automatico Venta NETA (Cadenas).xlsx Hoja: Malas realizada con éxito
+2025-06-16 13:51:35.850 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Lectura_insumos_excel: 0.05580401420593262 segundos
+2025-06-16 13:51:35.850 | INFO     | General_Functions:Lectura_insumos_excel:72 - Inicio lectura Automatico Venta NETA (Cadenas).xlsx Hoja Sin Asignar
+2025-06-16 13:51:35.912 | SUCCESS  | General_Functions:Lectura_insumos_excel:80 - Lectura de Automatico Venta NETA (Cadenas).xlsx Hoja: Sin Asignar realizada con éxito
+2025-06-16 13:51:35.912 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Lectura_insumos_excel: 0.061542510986328125 segundos
+2025-06-16 13:51:35.928 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Cargar_insumo: 0.1334395408630371 segundos
+2025-06-16 13:51:35.928 | INFO     | General_Functions:Lectura_insumos_excel:72 - Inicio lectura Automatico Venta NETA (General).xlsx Hoja Malas
+2025-06-16 13:51:35.988 | SUCCESS  | General_Functions:Lectura_insumos_excel:80 - Lectura de Automatico Venta NETA (General).xlsx Hoja: Malas realizada con éxito
+2025-06-16 13:51:35.990 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Lectura_insumos_excel: 0.06281542778015137 segundos
+2025-06-16 13:51:35.990 | INFO     | General_Functions:Lectura_insumos_excel:72 - Inicio lectura Automatico Venta NETA (General).xlsx Hoja Sin Asignar
+2025-06-16 13:51:36.102 | SUCCESS  | General_Functions:Lectura_insumos_excel:80 - Lectura de Automatico Venta NETA (General).xlsx Hoja: Sin Asignar realizada con éxito
+2025-06-16 13:51:36.108 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Lectura_insumos_excel: 0.11718368530273438 segundos
+2025-06-16 13:51:36.108 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Cargar_insumo: 0.17999911308288574 segundos
+2025-06-16 13:51:36.110 | INFO     | General_Functions:Eliminar_acentos:251 - Iniciando proceso de eliminación de acentos...
+2025-06-16 13:51:36.122 | SUCCESS  | General_Functions:Eliminar_acentos:259 - Proceso de eliminación de acentos completado con éxito.
+2025-06-16 13:51:36.123 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Eliminar_acentos: 0.013055562973022461 segundos
+2025-06-16 13:51:36.125 | INFO     | General_Functions:Eliminar_acentos:251 - Iniciando proceso de eliminación de acentos...
+2025-06-16 13:51:36.138 | SUCCESS  | General_Functions:Eliminar_acentos:259 - Proceso de eliminación de acentos completado con éxito.
+2025-06-16 13:51:36.138 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Eliminar_acentos: 0.013234853744506836 segundos
+2025-06-16 13:51:36.138 | INFO     | General_Functions:Eliminar_acentos:251 - Iniciando proceso de eliminación de acentos...
+2025-06-16 13:51:36.149 | SUCCESS  | General_Functions:Eliminar_acentos:259 - Proceso de eliminación de acentos completado con éxito.
+2025-06-16 13:51:36.149 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Eliminar_acentos: 0.010285615921020508 segundos
+2025-06-16 13:51:36.162 | INFO     | General_Functions:Eliminar_acentos:251 - Iniciando proceso de eliminación de acentos...
+2025-06-16 13:51:36.187 | SUCCESS  | General_Functions:Eliminar_acentos:259 - Proceso de eliminación de acentos completado con éxito.
+2025-06-16 13:51:36.187 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Eliminar_acentos: 0.02548956871032715 segundos
+2025-06-16 13:51:36.187 | INFO     | Trasformation_functions:eliminar_primeras_n_filas:52 - Eliminación de filas de todos los dataframes: 
+2025-06-16 13:51:36.194 | SUCCESS  | Trasformation_functions:eliminar_primeras_n_filas:60 - Eliminación de filas completa.
+2025-06-16 13:51:36.196 | INFO     | Trasformation_functions:Asignar_col_nula:226 - Proceso para agregar las columnas ['Gasto_Prom_Comercializadores', 'Formato', 'Formato N.I.F'] en la consulta consultas_no_ds iniciado:
+2025-06-16 13:51:36.202 | SUCCESS  | Trasformation_functions:Asignar_col_nula:232 - Columnas asignadas con exito
+2025-06-16 13:51:36.202 | INFO     | Trasformation_functions:Asignar_col_nula:226 - Proceso para agregar las columnas ['Formato'] en la consulta consultas_ds iniciado:
+2025-06-16 13:51:36.211 | SUCCESS  | Trasformation_functions:Asignar_col_nula:232 - Columnas asignadas con exito
+2025-06-16 13:51:36.212 | INFO     | Trasformation_functions:Asignar_col_nula:226 - Proceso para agregar las columnas ['Gasto_Prom_Comercializadores'] en la consulta consultas_cadenas iniciado:
+2025-06-16 13:51:36.216 | SUCCESS  | Trasformation_functions:Asignar_col_nula:232 - Columnas asignadas con exito
+2025-06-16 13:51:36.787 | SUCCESS  | Trasformation_functions:Renombrar_columnas_con_diccionario:82 - Proceso de renombrar columnas satisfactorio: 
+2025-06-16 13:51:36.800 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Renombrar_columnas_con_diccionario: 0.32960033416748047 segundos
+2025-06-16 13:51:36.997 | SUCCESS  | Trasformation_functions:Renombrar_columnas_con_diccionario:82 - Proceso de renombrar columnas satisfactorio: 
+2025-06-16 13:51:37.000 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Renombrar_columnas_con_diccionario: 0.15208983421325684 segundos
+2025-06-16 13:51:37.066 | SUCCESS  | Trasformation_functions:Renombrar_columnas_con_diccionario:82 - Proceso de renombrar columnas satisfactorio: 
+2025-06-16 13:51:37.066 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Renombrar_columnas_con_diccionario: 0.06623482704162598 segundos
+2025-06-16 13:51:37.196 | SUCCESS  | Trasformation_functions:Renombrar_columnas_con_diccionario:82 - Proceso de renombrar columnas satisfactorio: 
+2025-06-16 13:51:37.212 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Renombrar_columnas_con_diccionario: 0.13373875617980957 segundos
+2025-06-16 13:51:37.215 | INFO     | Trasformation_functions:concatenate_dataframes_from_dict:24 - Proceso de concatenación de dataframes.
+2025-06-16 13:51:37.373 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de concatenate_dataframes_from_dict: 0.15736651420593262 segundos
+2025-06-16 13:51:38.225 | SUCCESS  | General_Functions:Procesar_configuracion:28 - Proceso de obtención de configuración satisfactorio
+2025-06-16 13:51:38.225 | INFO     | General_Functions:Lectura_insumos_excel:72 - Inicio lectura Driver_NO_DS.xlsx Hoja Hoja1
+2025-06-16 13:51:38.266 | SUCCESS  | General_Functions:Lectura_insumos_excel:80 - Lectura de Driver_NO_DS.xlsx Hoja: Hoja1 realizada con éxito
+2025-06-16 13:51:38.266 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Lectura_insumos_excel: 0.040917396545410156 segundos
+2025-06-16 13:51:38.266 | INFO     | General_Functions:Lectura_insumos_excel:72 - Inicio lectura Driver_DS.xlsx Hoja Hoja1
+2025-06-16 13:51:38.402 | SUCCESS  | General_Functions:Lectura_insumos_excel:80 - Lectura de Driver_DS.xlsx Hoja: Hoja1 realizada con éxito
+2025-06-16 13:51:38.402 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Lectura_insumos_excel: 0.1354057788848877 segundos
+2025-06-16 13:51:38.407 | INFO     | General_Functions:Lectura_insumos_excel:72 - Inicio lectura Driver_Cadenas.xlsx Hoja Hoja1
+2025-06-16 13:51:38.432 | SUCCESS  | General_Functions:Lectura_insumos_excel:80 - Lectura de Driver_Cadenas.xlsx Hoja: Hoja1 realizada con éxito
+2025-06-16 13:51:38.432 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Lectura_insumos_excel: 0.024670839309692383 segundos
+2025-06-16 13:51:38.432 | INFO     | General_Functions:Eliminar_acentos:251 - Iniciando proceso de eliminación de acentos...
+2025-06-16 13:51:38.447 | SUCCESS  | General_Functions:Eliminar_acentos:259 - Proceso de eliminación de acentos completado con éxito.
+2025-06-16 13:51:38.447 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Eliminar_acentos: 0.014729022979736328 segundos
+2025-06-16 13:51:38.447 | INFO     | General_Functions:Eliminar_acentos:251 - Iniciando proceso de eliminación de acentos...
+2025-06-16 13:51:38.466 | SUCCESS  | General_Functions:Eliminar_acentos:259 - Proceso de eliminación de acentos completado con éxito.
+2025-06-16 13:51:38.472 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Eliminar_acentos: 0.025314807891845703 segundos
+2025-06-16 13:51:38.472 | INFO     | General_Functions:Eliminar_acentos:251 - Iniciando proceso de eliminación de acentos...
+2025-06-16 13:51:38.478 | SUCCESS  | General_Functions:Eliminar_acentos:259 - Proceso de eliminación de acentos completado con éxito.
+2025-06-16 13:51:38.478 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Eliminar_acentos: 0.0062334537506103516 segundos
+2025-06-16 13:51:40.043 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Reemplazos_multiples_columnas: 1.2173233032226562 segundos
+2025-06-16 13:51:40.066 | INFO     | Trasformation_functions:Reemplazar_columna_en_funcion_de_otra:130 - Inicio de remplazamiento de datos en Segmento_Agrup
+2025-06-16 13:51:40.091 | SUCCESS  | Trasformation_functions:Reemplazar_columna_en_funcion_de_otra:136 - Proceso de remplazamiento en Segmento_Agrup exitoso
+2025-06-16 13:51:40.091 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Reemplazar_columna_en_funcion_de_otra: 0.024884462356567383 segundos
+2025-06-16 13:51:41.332 | INFO     | Trasformation_functions:Reemplazar_columna_en_funcion_de_otra:130 - Inicio de remplazamiento de datos en Segmento_Agrup
+2025-06-16 13:51:41.375 | SUCCESS  | Trasformation_functions:Reemplazar_columna_en_funcion_de_otra:136 - Proceso de remplazamiento en Segmento_Agrup exitoso
+2025-06-16 13:51:41.375 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Reemplazar_columna_en_funcion_de_otra: 0.043126583099365234 segundos
+2025-06-16 13:51:41.783 | INFO     | Trasformation_functions:Reemplazar_columna_en_funcion_de_otra:130 - Inicio de remplazamiento de datos en Segmento_Agrup
+2025-06-16 13:51:41.815 | SUCCESS  | Trasformation_functions:Reemplazar_columna_en_funcion_de_otra:136 - Proceso de remplazamiento en Segmento_Agrup exitoso
+2025-06-16 13:51:41.827 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Reemplazar_columna_en_funcion_de_otra: 0.043344974517822266 segundos
+2025-06-16 13:51:42.078 | INFO     | Trasformation_functions:Reemplazar_columna_en_funcion_de_otra:130 - Inicio de remplazamiento de datos en Formato
+2025-06-16 13:51:42.125 | SUCCESS  | Trasformation_functions:Reemplazar_columna_en_funcion_de_otra:136 - Proceso de remplazamiento en Formato exitoso
+2025-06-16 13:51:42.125 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Reemplazar_columna_en_funcion_de_otra: 0.046776533126831055 segundos
+2025-06-16 13:51:42.559 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Reemplazos_multiples_columnas: 0.2515401840209961 segundos
+2025-06-16 13:51:42.604 | INFO     | Trasformation_functions:Reemplazar_columna_en_funcion_de_otra:130 - Inicio de remplazamiento de datos en Subcanal
+2025-06-16 13:51:42.704 | SUCCESS  | Trasformation_functions:Reemplazar_columna_en_funcion_de_otra:136 - Proceso de remplazamiento en Subcanal exitoso
+2025-06-16 13:51:42.718 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Reemplazar_columna_en_funcion_de_otra: 0.11410903930664062 segundos
+2025-06-16 13:51:42.924 | INFO     | Trasformation_functions:Reemplazar_columna_en_funcion_de_otra:130 - Inicio de remplazamiento de datos en Segmento_Agrup
+2025-06-16 13:51:43.051 | SUCCESS  | Trasformation_functions:Reemplazar_columna_en_funcion_de_otra:136 - Proceso de remplazamiento en Segmento_Agrup exitoso
+2025-06-16 13:51:43.051 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Reemplazar_columna_en_funcion_de_otra: 0.12661004066467285 segundos
+2025-06-16 13:51:43.745 | INFO     | Trasformation_functions:modificaciones_elegidas_dataframe:341 - Inicio de la operacion fillna
+2025-06-16 13:51:44.233 | SUCCESS  | Trasformation_functions:modificaciones_elegidas_dataframe:350 - operacion fillna completada con exito
+2025-06-16 13:51:44.299 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de modificaciones_elegidas_dataframe: 1.000535011291504 segundos
+2025-06-16 13:51:44.346 | INFO     | Trasformation_functions:modificaciones_elegidas_dataframe:341 - Inicio de la operacion fillna
+2025-06-16 13:51:44.423 | SUCCESS  | Trasformation_functions:modificaciones_elegidas_dataframe:350 - operacion fillna completada con exito
+2025-06-16 13:51:44.435 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de modificaciones_elegidas_dataframe: 0.13550615310668945 segundos
+2025-06-16 13:51:44.562 | INFO     | Trasformation_functions:modificaciones_elegidas_dataframe:341 - Inicio de la operacion fillna
+2025-06-16 13:51:44.680 | SUCCESS  | Trasformation_functions:modificaciones_elegidas_dataframe:350 - operacion fillna completada con exito
+2025-06-16 13:51:44.697 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de modificaciones_elegidas_dataframe: 0.2622537612915039 segundos
+2025-06-16 13:51:45.137 | INFO     | Trasformation_functions:modificaciones_elegidas_dataframe:341 - Inicio de la operacion astype
+2025-06-16 13:51:45.614 | SUCCESS  | Trasformation_functions:modificaciones_elegidas_dataframe:350 - operacion astype completada con exito
+2025-06-16 13:51:45.707 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de modificaciones_elegidas_dataframe: 1.0102427005767822 segundos
+2025-06-16 13:51:45.770 | INFO     | Trasformation_functions:modificaciones_elegidas_dataframe:341 - Inicio de la operacion astype
+2025-06-16 13:51:45.837 | SUCCESS  | Trasformation_functions:modificaciones_elegidas_dataframe:350 - operacion astype completada con exito
+2025-06-16 13:51:45.855 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de modificaciones_elegidas_dataframe: 0.14603519439697266 segundos
+2025-06-16 13:51:45.980 | INFO     | Trasformation_functions:modificaciones_elegidas_dataframe:341 - Inicio de la operacion astype
+2025-06-16 13:51:46.132 | SUCCESS  | Trasformation_functions:modificaciones_elegidas_dataframe:350 - operacion astype completada con exito
+2025-06-16 13:51:46.165 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de modificaciones_elegidas_dataframe: 0.3084852695465088 segundos
+2025-06-16 13:51:52.427 | INFO     | Trasformation_functions:Reemplazar_columna_en_funcion_de_otra:130 - Inicio de remplazamiento de datos en Cliente
+2025-06-16 13:51:52.427 | SUCCESS  | Trasformation_functions:Reemplazar_columna_en_funcion_de_otra:136 - Proceso de remplazamiento en Cliente exitoso
+2025-06-16 13:51:52.427 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Reemplazar_columna_en_funcion_de_otra: 0.0 segundos
+2025-06-16 13:51:52.442 | INFO     | Trasformation_functions:Reemplazar_columna_en_funcion_de_otra:130 - Inicio de remplazamiento de datos en Cliente
+2025-06-16 13:51:52.522 | SUCCESS  | Trasformation_functions:Reemplazar_columna_en_funcion_de_otra:136 - Proceso de remplazamiento en Cliente exitoso
+2025-06-16 13:51:52.522 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Reemplazar_columna_en_funcion_de_otra: 0.07918190956115723 segundos
+2025-06-16 13:51:52.539 | INFO     | Trasformation_functions:Reemplazar_columna_en_funcion_de_otra:130 - Inicio de remplazamiento de datos en Oficina_ventas_Agrup
+2025-06-16 13:51:52.543 | SUCCESS  | Trasformation_functions:Reemplazar_columna_en_funcion_de_otra:136 - Proceso de remplazamiento en Oficina_ventas_Agrup exitoso
+2025-06-16 13:51:52.543 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Reemplazar_columna_en_funcion_de_otra: 0.0039556026458740234 segundos
+2025-06-16 13:51:52.543 | INFO     | Trasformation_functions:Reemplazar_columna_en_funcion_de_otra:130 - Inicio de remplazamiento de datos en Oficina_ventas_Agrup
+2025-06-16 13:51:52.628 | SUCCESS  | Trasformation_functions:Reemplazar_columna_en_funcion_de_otra:136 - Proceso de remplazamiento en Oficina_ventas_Agrup exitoso
+2025-06-16 13:51:52.630 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Reemplazar_columna_en_funcion_de_otra: 0.08648037910461426 segundos
+2025-06-16 13:51:52.637 | INFO     | Exclusive_CxS_functions:Filtrar_DataFrames_ventas:48 - Inicio filtracion de la consulta de ventas.
+2025-06-16 13:51:52.641 | SUCCESS  | Exclusive_CxS_functions:Filtrar_DataFrames_ventas:50 - Proceso terminado para la consulta de ventas: 
+2025-06-16 13:51:52.643 | INFO     | Exclusive_CxS_functions:Filtrar_DataFrames_ventas:48 - Inicio filtracion de la consulta de ventas.
+2025-06-16 13:51:52.647 | SUCCESS  | Exclusive_CxS_functions:Filtrar_DataFrames_ventas:50 - Proceso terminado para la consulta de ventas: 
+2025-06-16 13:51:52.647 | INFO     | Trasformation_functions:concatenar_columnas:377 - Se realizó la concatenación en el DataFrame correctamente.
+2025-06-16 13:51:52.647 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de concatenar_columnas: 0.0 segundos
+2025-06-16 13:51:52.655 | INFO     | Trasformation_functions:concatenar_columnas:377 - Se realizó la concatenación en el DataFrame correctamente.
+2025-06-16 13:51:52.655 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de concatenar_columnas: 0.0 segundos
+2025-06-16 13:51:52.662 | INFO     | Trasformation_functions:concatenar_columnas:377 - Se realizó la concatenación en el DataFrame correctamente.
+2025-06-16 13:51:52.664 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de concatenar_columnas: 0.004258632659912109 segundos
+2025-06-16 13:51:52.664 | INFO     | Trasformation_functions:concatenar_columnas:377 - Se realizó la concatenación en el DataFrame correctamente.
+2025-06-16 13:51:52.664 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de concatenar_columnas: 0.0 segundos
+2025-06-16 13:51:52.674 | INFO     | General_Functions:Group_by_and_sum:226 - Agrupación y suma realizadas con éxito en las columnas concatenada y Devoluciones Malas.
+2025-06-16 13:51:52.677 | INFO     | General_Functions:Group_by_and_sum:226 - Agrupación y suma realizadas con éxito en las columnas concatenada y Devs. Sin Asignar.
+2025-06-16 13:51:52.754 | SUCCESS  | General_Functions:Procesar_configuracion:28 - Proceso de obtención de configuración satisfactorio
+2025-06-16 13:51:52.765 | INFO     | Trasformation_functions:concatenar_columnas:377 - Se realizó la concatenación en el DataFrame correctamente.
+2025-06-16 13:51:52.767 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de concatenar_columnas: 0.0056340694427490234 segundos
+2025-06-16 13:51:52.770 | INFO     | Trasformation_functions:concatenar_columnas:377 - Se realizó la concatenación en el DataFrame correctamente.
+2025-06-16 13:51:52.773 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de concatenar_columnas: 0.0047185420989990234 segundos
+2025-06-16 13:51:52.780 | INFO     | Trasformation_functions:Reemplazar_columna_en_funcion_de_otra:130 - Inicio de remplazamiento de datos en Devs. Sin Asignar
+2025-06-16 13:51:52.789 | SUCCESS  | Trasformation_functions:Reemplazar_columna_en_funcion_de_otra:136 - Proceso de remplazamiento en Devs. Sin Asignar exitoso
+2025-06-16 13:51:52.790 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Reemplazar_columna_en_funcion_de_otra: 0.010695934295654297 segundos
+2025-06-16 13:51:52.792 | INFO     | Trasformation_functions:Reemplazar_columna_en_funcion_de_otra:130 - Inicio de remplazamiento de datos en Devoluciones Malas
+2025-06-16 13:51:52.798 | SUCCESS  | Trasformation_functions:Reemplazar_columna_en_funcion_de_otra:136 - Proceso de remplazamiento en Devoluciones Malas exitoso
+2025-06-16 13:51:52.799 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Reemplazar_columna_en_funcion_de_otra: 0.007185459136962891 segundos
+2025-06-16 13:51:52.799 | INFO     | Trasformation_functions:Reemplazar_columna_en_funcion_de_otra:130 - Inicio de remplazamiento de datos en Devs. Sin Asignar
+2025-06-16 13:51:52.805 | SUCCESS  | Trasformation_functions:Reemplazar_columna_en_funcion_de_otra:136 - Proceso de remplazamiento en Devs. Sin Asignar exitoso
+2025-06-16 13:51:52.805 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Reemplazar_columna_en_funcion_de_otra: 0.005854129791259766 segundos
+2025-06-16 13:51:52.808 | INFO     | Trasformation_functions:Reemplazar_columna_en_funcion_de_otra:130 - Inicio de remplazamiento de datos en Devoluciones Malas
+2025-06-16 13:51:52.809 | SUCCESS  | Trasformation_functions:Reemplazar_columna_en_funcion_de_otra:136 - Proceso de remplazamiento en Devoluciones Malas exitoso
+2025-06-16 13:51:52.809 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Reemplazar_columna_en_funcion_de_otra: 0.0011889934539794922 segundos
+2025-06-16 13:51:52.822 | INFO     | General_Functions:Group_by_and_sum:226 - Agrupación y suma realizadas con éxito en las columnas Concatenada_gb_vn y Ventas_Netas_Grupo.
+2025-06-16 14:54:02.689 | INFO     | General_Functions:Lectura_insumos_excel:72 - Inicio lectura Validacion vtas.xlsx Hoja GENERAL
+2025-06-16 14:54:02.783 | SUCCESS  | General_Functions:Lectura_insumos_excel:80 - Lectura de Validacion vtas.xlsx Hoja: GENERAL realizada con éxito
+2025-06-16 14:54:02.783 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Lectura_insumos_excel: 0.09414553642272949 segundos
+2025-06-16 14:54:02.783 | INFO     | General_Functions:Eliminar_acentos:251 - Iniciando proceso de eliminación de acentos...
+2025-06-16 14:54:02.799 | SUCCESS  | General_Functions:Eliminar_acentos:259 - Proceso de eliminación de acentos completado con éxito.
+2025-06-16 14:54:02.799 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Eliminar_acentos: 0.015624523162841797 segundos
+2025-06-16 14:54:02.799 | INFO     | General_Functions:Lectura_insumos_excel:72 - Inicio lectura Validacion vtas.xlsx Hoja FORMATOS
+2025-06-16 14:54:02.846 | SUCCESS  | General_Functions:Lectura_insumos_excel:80 - Lectura de Validacion vtas.xlsx Hoja: FORMATOS realizada con éxito
+2025-06-16 14:54:02.862 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Lectura_insumos_excel: 0.06290721893310547 segundos
+2025-06-16 14:54:02.862 | INFO     | General_Functions:Lectura_insumos_excel:72 - Inicio lectura Validacion gastos.xlsx Hoja GASTOS_VEF
+2025-06-16 14:54:02.877 | SUCCESS  | General_Functions:Lectura_insumos_excel:80 - Lectura de Validacion gastos.xlsx Hoja: GASTOS_VEF realizada con éxito
+2025-06-16 14:54:02.877 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Lectura_insumos_excel: 0.015624284744262695 segundos
+2025-06-16 14:54:02.877 | SUCCESS  | Trasformation_functions:Renombrar_columnas_con_diccionario:82 - Proceso de renombrar columnas satisfactorio: 
+2025-06-16 14:54:02.877 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Renombrar_columnas_con_diccionario: 0.0 segundos
+2025-06-16 14:54:02.893 | SUCCESS  | Trasformation_functions:Renombrar_columnas_con_diccionario:82 - Proceso de renombrar columnas satisfactorio: 
+2025-06-16 14:54:02.893 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Renombrar_columnas_con_diccionario: 0.0 segundos
+2025-06-16 14:54:02.893 | INFO     | Trasformation_functions:eliminar_fila_por_indice:103 - Fila con índice 0 eliminada correctamente.
+2025-06-16 14:54:02.893 | INFO     | Trasformation_functions:eliminar_fila_por_indice:103 - Fila con índice 0 eliminada correctamente.
+2025-06-16 14:54:02.940 | INFO     | Trasformation_functions:Group_by_and_sum_cols_pd:171 - Agrupación y suma realizadas con éxito en las columnas.
+2025-06-16 14:54:02.987 | INFO     | Trasformation_functions:Group_by_and_sum_cols_pd:171 - Agrupación y suma realizadas con éxito en las columnas.
+2025-06-16 14:54:03.018 | INFO     | Trasformation_functions:Group_by_and_sum_cols_pd:171 - Agrupación y suma realizadas con éxito en las columnas.
+2025-06-16 14:54:03.065 | INFO     | Trasformation_functions:Group_by_and_sum_cols_pd:171 - Agrupación y suma realizadas con éxito en las columnas.
+2025-06-16 14:54:03.097 | INFO     | Trasformation_functions:Group_by_and_sum_cols_pd:171 - Agrupación y suma realizadas con éxito en las columnas.
+2025-06-16 14:54:03.112 | INFO     | Trasformation_functions:Group_by_and_sum_cols_pd:171 - Agrupación y suma realizadas con éxito en las columnas.
+2025-06-16 14:54:03.128 | INFO     | Trasformation_functions:Group_by_and_sum_cols_pd:171 - Agrupación y suma realizadas con éxito en las columnas.
+2025-06-16 14:54:03.144 | INFO     | Trasformation_functions:Group_by_and_sum_cols_pd:171 - Agrupación y suma realizadas con éxito en las columnas.
+2025-06-16 14:54:03.144 | INFO     | Trasformation_functions:Group_by_and_sum_cols_pd:171 - Agrupación y suma realizadas con éxito en las columnas.
+2025-06-16 14:54:03.160 | INFO     | Trasformation_functions:Group_by_and_sum_cols_pd:171 - Agrupación y suma realizadas con éxito en las columnas.
+2025-06-16 14:54:03.175 | SUCCESS  | Trasformation_functions:Renombrar_columnas_con_diccionario:82 - Proceso de renombrar columnas satisfactorio: 
+2025-06-16 14:54:03.175 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Renombrar_columnas_con_diccionario: 0.0 segundos
+2025-06-16 14:54:03.175 | SUCCESS  | Trasformation_functions:Renombrar_columnas_con_diccionario:82 - Proceso de renombrar columnas satisfactorio: 
+2025-06-16 14:54:03.175 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Renombrar_columnas_con_diccionario: 0.0 segundos
+2025-06-16 14:54:03.191 | SUCCESS  | Trasformation_functions:Renombrar_columnas_con_diccionario:82 - Proceso de renombrar columnas satisfactorio: 
+2025-06-16 14:54:03.191 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Renombrar_columnas_con_diccionario: 0.0 segundos
+2025-06-16 14:54:03.207 | SUCCESS  | Trasformation_functions:Renombrar_columnas_con_diccionario:82 - Proceso de renombrar columnas satisfactorio: 
+2025-06-16 14:54:03.207 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Renombrar_columnas_con_diccionario: 0.0 segundos
+2025-06-16 14:54:03.207 | SUCCESS  | Trasformation_functions:Renombrar_columnas_con_diccionario:82 - Proceso de renombrar columnas satisfactorio: 
+2025-06-16 14:54:03.207 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Renombrar_columnas_con_diccionario: 0.0 segundos
+2025-06-16 14:54:03.222 | SUCCESS  | Trasformation_functions:Renombrar_columnas_con_diccionario:82 - Proceso de renombrar columnas satisfactorio: 
+2025-06-16 14:54:03.222 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Renombrar_columnas_con_diccionario: 0.015630722045898438 segundos
+2025-06-16 14:54:03.222 | SUCCESS  | Trasformation_functions:Renombrar_columnas_con_diccionario:82 - Proceso de renombrar columnas satisfactorio: 
+2025-06-16 14:54:03.222 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Renombrar_columnas_con_diccionario: 0.0 segundos
+2025-06-16 14:54:03.238 | SUCCESS  | Trasformation_functions:Renombrar_columnas_con_diccionario:82 - Proceso de renombrar columnas satisfactorio: 
+2025-06-16 14:54:03.238 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Renombrar_columnas_con_diccionario: 0.0 segundos
+2025-06-16 14:54:03.238 | SUCCESS  | Trasformation_functions:Renombrar_columnas_con_diccionario:82 - Proceso de renombrar columnas satisfactorio: 
+2025-06-16 14:54:03.238 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Renombrar_columnas_con_diccionario: 0.0 segundos
+2025-06-16 14:54:03.253 | SUCCESS  | Trasformation_functions:Renombrar_columnas_con_diccionario:82 - Proceso de renombrar columnas satisfactorio: 
+2025-06-16 14:54:03.253 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Renombrar_columnas_con_diccionario: 0.0 segundos
+2025-06-16 14:54:03.536 | INFO     | Trasformation_functions:eliminar_primeros_n_caracteres:637 - Se eliminaron los primeros 5 caracteres de la columna 'centro_costo'.
+2025-06-16 14:54:03.724 | SUCCESS  | Trasformation_functions:Reemplazar_valores_con_dict_pd:306 - Valores de la columna 'centro_costo' reemplazados según el diccionario de mapeo.
+2025-06-16 14:54:03.724 | INFO     | Trasformation_functions:Group_by_and_sum_cols_pd:171 - Agrupación y suma realizadas con éxito en las columnas.
+2025-06-16 14:54:03.771 | INFO     | Trasformation_functions:Group_by_and_sum_cols_pd:171 - Agrupación y suma realizadas con éxito en las columnas.
+2025-06-16 14:54:03.771 | SUCCESS  | Trasformation_functions:pd_left_merge:492 - Proceso de merge satisfactorio
+2025-06-16 14:55:53.930 | INFO     | General_Functions:wrapper:42 - Tiempo de ejecución de Proceso_CxS: 4148.914471387863 segundos
