@@ -1,18 +1,6 @@
 # Importamos las librerias necesarias para la configuración.
 import sys
-from os import getcwd,chdir,path
-
-# Preguntamos al usuario por el lugar de ejecución.
-lugar_de_ejecucion = input(
-    "Está ejecutando esta automatización desde Python IDLE ó desde cmd?: (si/no): "
-)
-
-if lugar_de_ejecucion == "si":
-    ruta_actual = getcwd()
-    ruta_padre = path.dirname(ruta_actual)
-    chdir(ruta_padre)
-else:
-    pass
+from os import path
 
 # Configuramos la ruta para traer las funciones.
 current_dir = path.dirname(path.abspath(__file__))

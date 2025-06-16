@@ -1,5 +1,6 @@
 /Insumos/
 /Insumos_copia/
 .env
-/Insumos.zip/
+/Insumos.zip
 .vscode
+/venv/

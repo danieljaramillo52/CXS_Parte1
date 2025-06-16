@@ -5,6 +5,7 @@ import xlsxwriter
 from loguru import logger
 import General_Functions as gf
 import Trasformation_functions as tf
+from Exclusive_CxS_functions import generar_agrupaciones, calcular_diferencias_gastos
 from fusion_consolidado_ventas import consulta_final_mod, config
 
 # Cambiar el nombre de la columna formato N.I.F
@@ -60,32 +61,11 @@ consulta_final_mod_fil_gc = tf.filtrar_por_valores(
     df=consulta_final_mod_fil, columna="canal_trans", valores=["Grandes Cadenas"]
 )
 
-# consulta_final_mod_fil = pd_left_merge()
 consulta_final_mod_fil = consulta_final_mod[campos]
 df_verf_vtas_gn_ren = df_verf_vtas_gn_ren[campos[1:]]
 
-# ----------------------------------------------------------------
-agrupaciones_individuales = {}
 
-for col in group_columns:
-
-    df = consulta_final_mod_fil if col != "formato" else consulta_final_mod_fil_gc
-
-    agrupaciones_individuales[col] = tf.Group_by_and_sum_cols_pd(
-        df=df, group_col=col, sum_col=sum_columns
-    )
-
-agrupaciones_combinadas = {}
-
-for i in range(2, len(group_columns)):
-    combinacion = group_columns[1:i]
-    clave = "/".join(combinacion)
-    agrupaciones_combinadas[clave] = consulta_final_mod_fil.groupby(
-        combinacion, as_index=False
-    )[sum_columns].sum()
-
-
-# ------------------------------------------------------------------
+# Normaliza tipos de datos primero
 df_verf_vtas_gn_ren = tf.Cambiar_tipo_dato_multiples_columnas_pd(
     base=df_verf_vtas_gn_ren, list_columns=campos[5:], type_data=float
 )
@@ -93,40 +73,35 @@ df_verf_vtas_cad_ren = tf.Cambiar_tipo_dato_multiples_columnas_pd(
     base=df_verf_vtas_cad_ren, list_columns=campos[5:], type_data=float
 )
 
-agrupaciones_individuales1 = {}
+# Generar ambos sets
+agrupaciones_individuales, agrupaciones_combinadas = generar_agrupaciones(
+    consulta_final_mod_fil,
+    consulta_final_mod_fil_gc,
+    group_columns,
+    sum_columns,
+    incluir_formato_sector=True,
+)
 
-for col in group_columns:
-    df = df_verf_vtas_gn_ren if col != "formato" else df_verf_vtas_cad_ren
+agrupaciones_individuales1, agrupaciones_combinadas1 = generar_agrupaciones(
+    df_verf_vtas_gn_ren,
+    df_verf_vtas_cad_ren,
+    group_columns,
+    sum_columns,
+    incluir_formato_sector=True,
+)
 
-    agrupaciones_individuales1[col] = tf.Group_by_and_sum_cols_pd(
-        df=df, group_col=col, sum_col=sum_columns
-    )
-
-agrupaciones_combinadas1 = {}
-
-for i in range(2, len(group_columns)):
-    combinacion = group_columns[1:i]
-    clave = "/".join(combinacion)
-    agrupaciones_combinadas1[clave] = df_verf_vtas_gn_ren.groupby(
-        combinacion, as_index=False
-    )[sum_columns].sum()
-
-
-
-# Comparar combinadas con individuales1
+# Comparar resultados
 resultado_indiv_vs_indiv1 = tf.comparar_diccionarios_df(
     dict1=agrupaciones_individuales,
     dict2=agrupaciones_individuales1,
     sum_columns=["ventas_netas_cn", "descuentos_cn"],
 )
 
-
 resultado_combi_vs_combi1 = tf.comparar_diccionarios_df(
     dict1=agrupaciones_combinadas,
     dict2=agrupaciones_combinadas1,
     sum_columns=["ventas_netas_cn", "descuentos_cn"],
 )
-
 
 # Base de gastos comparaciones.
 df_gastos_cn = tf.Renombrar_columnas_con_diccionario(
@@ -163,9 +138,7 @@ df_compar_gastos = tf.pd_left_merge(
     suffixes=("_insumo", "_Postgress"),
 )
 
-df_compar_gastos.loc[:, "diff_gastos"] = (df_compar_gastos["total_gastos_cn_Postgress"] - df_compar_gastos["total_gastos_cn_insumo"]).abs()
-df_compar_gastos.loc[:, "diff_gastos_pct"] = df_compar_gastos["diff_gastos"] / df_compar_gastos["total_gastos_cn_Postgress"]
-df_compar_gastos.loc[:, "alerta_gastos"] = df_compar_gastos["diff_gastos_pct"] > 0.001
+df_compar_gastos = calcular_diferencias_gastos(df_compar_gastos)
 
 df_compar_gastos.to_excel("comparacion_gastos.xlsx", index=False)
 
